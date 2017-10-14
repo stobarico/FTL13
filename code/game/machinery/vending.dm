@@ -731,10 +731,10 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	product_slogans = "Try our new nougat bar!;Twice the calories for half the price!"
 	product_ads = "The healthiest!;Award-winning chocolate bars!;Mmm! So good!;Oh my god it's so juicy!;Have a snack.;Snacks are good for you!;Have some more Getmore!;Best quality snacks straight from mars.;We love chocolate!;Try our new jerky!"
 	icon_state = "snack"
-	products = list(/obj/item/weapon/reagent_containers/food/snacks/candy = 6, /obj/item/weapon/reagent_containers/food/drinks/dry_ramen = 6, /obj/item/weapon/reagent_containers/food/snacks/chips =6,
-					/obj/item/weapon/reagent_containers/food/snacks/sosjerky = 6, /obj/item/weapon/reagent_containers/food/snacks/no_raisin = 6, /obj/item/weapon/reagent_containers/food/snacks/spacetwinkie = 6,
-					/obj/item/weapon/reagent_containers/food/snacks/cheesiehonkers = 6)
-	contraband = list(/obj/item/weapon/reagent_containers/food/snacks/syndicake = 6)
+	products = list(/obj/item/weapon/reagent_containers/food/snacks/candy = 15, /obj/item/weapon/reagent_containers/food/drinks/dry_ramen = 15, /obj/item/weapon/reagent_containers/food/snacks/chips = 15,
+					/obj/item/weapon/reagent_containers/food/snacks/sosjerky = 15, /obj/item/weapon/reagent_containers/food/snacks/no_raisin = 15, /obj/item/weapon/reagent_containers/food/snacks/spacetwinkie = 15,
+					/obj/item/weapon/reagent_containers/food/snacks/cheesiehonkers = 15)
+	contraband = list(/obj/item/weapon/reagent_containers/food/snacks/syndicake = 15)
 	refill_canister = /obj/item/weapon/vending_refill/snack
 	var/chef_compartment_access = "28"
 
@@ -767,10 +767,10 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	product_ads = "Sufficiently healthy.;Efficiently produced tofu!;Mmm! So good!;Have a meal.;You need food to live!;Have some more candy corn!;Try our new ice cups!"
 	icon_state = "sustenance"
 	products = list(/obj/item/weapon/reagent_containers/food/snacks/tofu = 24,
+					/obj/item/weapon/reagent_containers/food/drinks/coffee = 12,
 					/obj/item/weapon/reagent_containers/food/drinks/ice = 12,
 					/obj/item/weapon/reagent_containers/food/snacks/candy_corn = 6)
 	contraband = list(/obj/item/weapon/kitchen/knife = 6,
-					/obj/item/weapon/reagent_containers/food/drinks/coffee = 12,
 					/obj/item/weapon/tank/internals/emergency_oxygen = 6,
 					/obj/item/clothing/mask/breath = 6)
 	armor = list(melee = 100, bullet = 100, laser = 100, energy = 100, bomb = 0, bio = 0, rad = 0, fire = 100, acid = 50)
@@ -782,12 +782,12 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	icon_state = "Cola_Machine"
 	product_slogans = "Robust Softdrinks: More robust than a toolbox to the head!"
 	product_ads = "Refreshing!;Hope you're thirsty!;Over 1 million drinks sold!;Thirsty? Why not cola?;Please, have a drink!;Drink up!;The best drinks in space."
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/cola = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/dr_gibb = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/starkist = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_up = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/pwr_game = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/lemon_lime = 10, /obj/item/weapon/reagent_containers/glass/beaker/waterbottle = 10)
-	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/thirteenloko = 6, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/shamblers = 6)
-	premium = list(/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola = 1, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/air = 1)
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/cola = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/dr_gibb = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/starkist = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_up = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/pwr_game = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/lemon_lime = 20, /obj/item/weapon/reagent_containers/glass/beaker/waterbottle = 25)
+	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/thirteenloko = 15, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/shamblers = 15)
+	premium = list(/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola = 3, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/air = 3)
 	refill_canister = /obj/item/weapon/vending_refill/cola
 
 /obj/machinery/vending/cola/random
@@ -837,10 +837,10 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	name = "\improper Shambler's Vendor"
 	desc = "~Shake me up some of that Shambler's Juice!~"
 	icon_state = "shamblers_juice"
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/cola = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/dr_gibb = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/starkist = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_up = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/pwr_game = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/lemon_lime = 10, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/shamblers = 10)
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/soda_cans/cola = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/dr_gibb = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/starkist = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/space_up = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/pwr_game = 20,
+					/obj/item/weapon/reagent_containers/food/drinks/soda_cans/lemon_lime = 20, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/shamblers = 30)
 	product_slogans = "~Shake me up some of that Shambler's Juice!~"
 	product_ads = "Refreshing!;Jyrbv dv lg jfdv fw kyrk Jyrdscvi'j Alztv!;Over 1 trillion souls drank!;Thirsty? Nyp efk uizeb kyv uribevjj?;Kyv Jyrdscvi uizebj kyv ezxyk!;Drink up!;Krjkp."
 
@@ -882,10 +882,10 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	product_ads = "Probably not bad for you!;Don't believe the scientists!;It's good for you!;Don't quit, buy more!;Smoke!;Nicotine heaven.;Best cigarettes since 2150.;Award-winning cigs."
 	icon_state = "cigs"
 	products = list(/obj/item/weapon/storage/fancy/cigarettes = 5,
-					/obj/item/weapon/storage/fancy/cigarettes/cigpack_uplift = 3,
-					/obj/item/weapon/storage/fancy/cigarettes/cigpack_robust = 3,
-					/obj/item/weapon/storage/fancy/cigarettes/cigpack_carp = 3,
-					/obj/item/weapon/storage/fancy/cigarettes/cigpack_midori = 3,
+					/obj/item/weapon/storage/fancy/cigarettes/cigpack_uplift = 5,
+					/obj/item/weapon/storage/fancy/cigarettes/cigpack_robust = 5,
+					/obj/item/weapon/storage/fancy/cigarettes/cigpack_carp = 5,
+					/obj/item/weapon/storage/fancy/cigarettes/cigpack_midori = 5,
 					/obj/item/weapon/storage/box/matches = 10,
 					/obj/item/weapon/lighter/greyscale = 4,
 					/obj/item/weapon/storage/fancy/rollingpapers = 5)
